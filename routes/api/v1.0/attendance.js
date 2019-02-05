@@ -12,6 +12,7 @@ router.post('/', function(req, res) {
     var time = req.body.Time;
     res.json({
         "Roll": roll,
+        "Time": time,
         "Present": true
     })
 })

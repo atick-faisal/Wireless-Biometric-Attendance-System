@@ -1,0 +1,28 @@
+{
+  "name": "wireless-biometric-attendance-system",
+  "version": "1.1.0",
+  "description": "A complete wireless and fingerprint based attendance system for classrooms. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atick-faisal/Wireless-Biometric-Attendance-System.git"
+  },
+  "author": "Atick Faisal",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/atick-faisal/Wireless-Biometric-Attendance-System/issues"
+  },
+  "homepage": "https://github.com/atick-faisal/Wireless-Biometric-Attendance-System#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

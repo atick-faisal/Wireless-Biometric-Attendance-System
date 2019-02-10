@@ -1,5 +1,8 @@
 const express = require('express');
+const server = require('../../../server');
 const router = express.Router();
+
+const db = server.db;
 
 router.get('/', function(req, res) {
     res.json({
